@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7FC8A648-4DC7-4784-818B-533D095295D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BlackjackBot.Wpf</RootNamespace>
+    <AssemblyName>BlackjackBot.Wpf</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>HomeBot.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.SignalR.Client">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Client.2.0.2\lib\net45\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.18\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.18\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Converters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Controls\ConsoleControl.xaml.cs">
+      <DependentUpon>ConsoleControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameControl.xaml.cs">
+      <DependentUpon>GameControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameResultsControl.xaml.cs">
+      <DependentUpon>GameResultsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PlayerControl.xaml.cs">
+      <DependentUpon>PlayerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TournamentResults.xaml.cs">
+      <DependentUpon>TournamentResults.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\HandToItemConverter.cs" />
+    <Compile Include="Pages\VisualizerPage.xaml.cs">
+      <DependentUpon>VisualizerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\StartWindow.xaml.cs">
+      <DependentUpon>StartWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Controls\ConsoleControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\GameControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\GameResultsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\PlayerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TournamentResults.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Pages\VisualizerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\StartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResourceDictionaries\RD_BlackJack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\StartWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Cards\cardSkin.PNG" />
+    <Resource Include="Images\Cards\cl14.gif" />
+    <Resource Include="Images\Cards\cl10.gif" />
+    <Resource Include="Images\Cards\cl2.gif" />
+    <Resource Include="Images\Cards\cl3.gif" />
+    <Resource Include="Images\Cards\cl4.gif" />
+    <Resource Include="Images\Cards\cl5.gif" />
+    <Resource Include="Images\Cards\cl6.gif" />
+    <Resource Include="Images\Cards\cl7.gif" />
+    <Resource Include="Images\Cards\cl8.gif" />
+    <Resource Include="Images\Cards\cl9.gif" />
+    <Resource Include="Images\Cards\cl11.gif" />
+    <Resource Include="Images\Cards\cl13.gif" />
+    <Resource Include="Images\Cards\cl12.gif" />
+    <Resource Include="Images\Cards\di14.gif" />
+    <Resource Include="Images\Cards\di10.gif" />
+    <Resource Include="Images\Cards\di2.gif" />
+    <Resource Include="Images\Cards\di3.gif" />
+    <Resource Include="Images\Cards\di4.gif" />
+    <Resource Include="Images\Cards\di5.gif" />
+    <Resource Include="Images\Cards\di6.gif" />
+    <Resource Include="Images\Cards\di7.gif" />
+    <Resource Include="Images\Cards\di8.gif" />
+    <Resource Include="Images\Cards\di9.gif" />
+    <Resource Include="Images\Cards\di11.gif" />
+    <Resource Include="Images\Cards\di13.gif" />
+    <Resource Include="Images\Cards\di12.gif" />
+    <Resource Include="Images\Cards\he14.gif" />
+    <Resource Include="Images\Cards\he10.gif" />
+    <Resource Include="Images\Cards\he2.gif" />
+    <Resource Include="Images\Cards\he3.gif" />
+    <Resource Include="Images\Cards\he4.gif" />
+    <Resource Include="Images\Cards\he5.gif" />
+    <Resource Include="Images\Cards\he6.gif" />
+    <Resource Include="Images\Cards\he7.gif" />
+    <Resource Include="Images\Cards\he8.gif" />
+    <Resource Include="Images\Cards\he9.gif" />
+    <Resource Include="Images\Cards\he11.gif" />
+    <Resource Include="Images\Cards\he13.gif" />
+    <Resource Include="Images\Cards\he12.gif" />
+    <Resource Include="Images\Cards\sp14.gif" />
+    <Resource Include="Images\Cards\sp10.gif" />
+    <Resource Include="Images\Cards\sp2.gif" />
+    <Resource Include="Images\Cards\sp3.gif" />
+    <Resource Include="Images\Cards\sp4.gif" />
+    <Resource Include="Images\Cards\sp5.gif" />
+    <Resource Include="Images\Cards\sp6.gif" />
+    <Resource Include="Images\Cards\sp7.gif" />
+    <Resource Include="Images\Cards\sp8.gif" />
+    <Resource Include="Images\Cards\sp9.gif" />
+    <Resource Include="Images\Cards\sp11.gif" />
+    <Resource Include="Images\Cards\sp13.gif" />
+    <Resource Include="Images\Cards\sp12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlackjackBot.Bot\BlackjackBot.Bot.csproj">
+      <Project>{bcdeafef-044b-4ef3-80b3-a9de4135ea20}</Project>
+      <Name>BlackjackBot.Bot</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlackjackBot.Shared\BlackjackBot.Shared.csproj">
+      <Project>{92e1ef60-70b3-4d22-87ef-abf654724ccb}</Project>
+      <Name>BlackjackBot.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\background.jpg" />
+    <Resource Include="Images\chip.png" />
+    <Resource Include="Images\crown.png" />
+    <Resource Include="Images\EnterButton.png" />
+    <Resource Include="Images\EnterButtonHover.png" />
+    <Resource Include="Images\GameCountBackground.png" />
+    <Resource Include="Images\HomeBot.gif" />
+    <Resource Include="Images\LedgerBottom.png" />
+    <Resource Include="Images\LedgerMiddle.png" />
+    <Resource Include="Images\LedgerTop.png" />
+    <Resource Include="Images\PowerToConsole.png" />
+    <Resource Include="Images\Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BG_RepeatPattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\frame-bl.png" />
+    <Resource Include="Images\frame-bottom.png" />
+    <Resource Include="Images\frame-br.png" />
+    <Resource Include="Images\frame-left.png" />
+    <Resource Include="Images\frame-right.png" />
+    <Resource Include="Images\frame-tl.png" />
+    <Resource Include="Images\frame-top.png" />
+    <Resource Include="Images\frame-tr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CardTableBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Title-PlayerPage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\btn-GoBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\btn-Run.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CardTableRowDivider.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\VerticalPower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\btn-RunHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\btn-GoBackHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\SelectGamesToRunBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\SelectGamesToRunHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ResultLost.png" />
+    <Resource Include="Images\ResultWon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\btn-GoFwd.png" />
+    <Resource Include="Images\btn-GoFwdHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\HomeBot.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="HomeBot.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.13\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.13\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.13\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.13\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

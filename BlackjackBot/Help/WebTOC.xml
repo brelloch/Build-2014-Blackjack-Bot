@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="97bf2993-448f-4f2d-9f6e-b7a1317e083f" Title="BlackjackBot.Shared Namespace" Url="html/9d04fb02-d4ad-05bd-722c-0fe834d56104.htm">
+    <HelpTOCNode Id="b94aa7f1-af54-4161-9ec7-c957e193b396" Title="Card Class" Url="html/6a1caee0-78e9-1c70-7786-95aa37d366e7.htm">
+      <HelpTOCNode Title="Card Members" Url="html/6a8aa9fb-797f-eea9-3030-824152264bd6.htm" />
+      <HelpTOCNode Title="Card Constructor " Url="html/e431bc1e-bd0d-3016-7396-dc85e9f74867.htm" />
+      <HelpTOCNode Id="98842bd2-505e-4c26-95de-01b0efe9d08d" Title="Card Methods" Url="html/f7af4772-1704-2594-d2aa-d842217ba6b4.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/bb40b58a-12b5-1bfc-91e1-be5cca79ee67.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3cb35126-e2be-4bb3-93eb-f50c36723e03" Title="Card Properties" Url="html/9612dd05-9c02-2d43-1b01-ed688fa468da.htm">
+        <HelpTOCNode Title="FaceVal Property " Url="html/15fa3fda-e590-2531-989e-0e89c8922550.htm" />
+        <HelpTOCNode Title="Suit Property " Url="html/2897fbcd-8725-981f-5a6c-daabc8e04540.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fa0bf8b2-eceb-4550-9816-1beae2b3f907" Title="Deck Class" Url="html/9069c51f-9b05-2532-7b0b-815727fd052c.htm">
+      <HelpTOCNode Title="Deck Members" Url="html/0521f707-392e-eecb-1c7a-47a29a38fd41.htm" />
+      <HelpTOCNode Id="c943decd-ecd6-4abf-9b6d-5a9db4f830a9" Title="Deck Constructor " Url="html/73b405d9-3e71-07d5-aa1a-4975d8a47747.htm">
+        <HelpTOCNode Title="Deck Constructor (Int32)" Url="html/64ef0e2c-ce2c-e4a5-e864-0b55ba943db9.htm" />
+        <HelpTOCNode Title="Deck Constructor (String)" Url="html/4706ad88-13a5-f689-9c60-883f5740d3e5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="05b253e6-2e7f-4706-9ea2-0129fe490a37" Title="Deck Methods" Url="html/001d627b-5b24-c048-ad9a-1ba8bc7ea369.htm">
+        <HelpTOCNode Title="Draw Method " Url="html/f82ac9e7-5681-0c7c-4faa-cd38377c1148.htm" />
+        <HelpTOCNode Title="Shuffle Method " Url="html/d7a86488-c4f0-9a9e-dc61-5a10e82de0a7.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/bf793e6c-c83f-cc67-b55f-8852dbb0a15e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="197f508b-e01a-4531-bb11-07abafdcb401" Title="Deck Properties" Url="html/ba461e09-7996-b102-0915-866e8f0a3577.htm">
+        <HelpTOCNode Title="NumberOfDecks Property " Url="html/4306e1ed-2cc8-6efb-ac57-34571a3db2e4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d1e3ad85-afe2-477f-a5ee-56b6d11660d6" Title="Deck Events" Url="html/55044dd9-5db1-3edc-fa8b-5245359919a5.htm">
+        <HelpTOCNode Title="DeckShuffled Event" Url="html/876d6290-8890-6d80-b0fd-f186304aac88.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="EndResult Enumeration" Url="html/651bf85a-efd4-953e-50a8-ed6f16d60aec.htm" />
+    <HelpTOCNode Title="FaceValue Enumeration" Url="html/1f391c40-5a48-52a8-6f7a-5515c15b47fb.htm" />
+    <HelpTOCNode Id="b031b867-8ad2-413c-812b-411ae01cc7f3" Title="GameState Class" Url="html/ad3babdd-aa83-01fa-3ae9-072a862faf79.htm">
+      <HelpTOCNode Title="GameState Members" Url="html/9a7c8fa7-f5e5-893b-f235-7efc6094b889.htm" />
+      <HelpTOCNode Title="GameState Constructor " Url="html/b5ef45ac-6828-c387-cafd-4302b8eb1e4f.htm" />
+      <HelpTOCNode Id="bef1f49d-e0a3-411d-bf93-716b1e54147d" Title="GameState Fields" Url="html/a39540db-f865-3217-fb6c-2a4c02b1967b.htm">
+        <HelpTOCNode Title="MaximumBet Field" Url="html/567df18c-8706-a796-825a-db706ebaaf95.htm" />
+        <HelpTOCNode Title="MinimumBet Field" Url="html/d5deb3f5-c1f7-5f9a-8a72-3f6745403b2a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e7fbd755-be12-4a1e-9766-63cc8ce0aa6b" Title="GameState Methods" Url="html/18ca6b7f-f7bf-2256-88e7-b7d975d7335d.htm">
+        <HelpTOCNode Title="DisplayResults Method " Url="html/ce678b24-a3db-e95f-d653-7fe8850a9661.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/072d98dc-9e97-d624-76da-0814b81c58f0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c9c8eb2b-896a-47bc-8661-0caec1e4ca32" Title="GameState Properties" Url="html/41a1d57b-ce62-1718-9a8f-a14908e28f02.htm">
+        <HelpTOCNode Title="AllPlayers Property " Url="html/19dc1b49-4481-e1c5-4096-50fdd2d6c775.htm" />
+        <HelpTOCNode Title="EndDateTime Property " Url="html/5dd42672-eb81-058b-3aa9-98170d7193d0.htm" />
+        <HelpTOCNode Title="GameNumber Property " Url="html/4600c685-a5a2-b591-4dd9-f096784ddb7b.htm" />
+        <HelpTOCNode Title="GameSeriesId Property " Url="html/31fcc165-18b9-61d8-3819-47b658d78407.htm" />
+        <HelpTOCNode Title="Me Property " Url="html/ff467423-0d9b-2ee9-047e-5da2fd9d6f1b.htm" />
+        <HelpTOCNode Title="StartDateTime Property " Url="html/bc5c646e-4405-4978-c794-f7f0cda40994.htm" />
+        <HelpTOCNode Title="TotalGames Property " Url="html/db59f3dc-7cd1-a6f3-4278-2b2d3f2ea11a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c9e7608c-b0dc-425e-be96-53f813e93409" Title="Hand Class" Url="html/1ac8715f-b26f-e144-1e84-65f1e957cb4d.htm">
+      <HelpTOCNode Title="Hand Members" Url="html/4a2256dc-3b4e-b28f-18a2-830961833041.htm" />
+      <HelpTOCNode Title="Hand Constructor " Url="html/c6851e31-4828-ff83-18e8-10331cceb8e0.htm" />
+      <HelpTOCNode Id="e8000372-8cec-4f6f-bd7c-d6fbf12ec442" Title="Hand Fields" Url="html/d21ff741-45a7-aa19-ffdb-b14c41156f5f.htm">
+        <HelpTOCNode Title="_cards Field" Url="html/68531403-d605-7c7f-9cc0-318f32e69573.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="32daa12e-2be4-4e0d-878c-dfd236e18659" Title="Hand Methods" Url="html/be290e25-f3be-df8f-f6df-e40ac9cc035e.htm">
+        <HelpTOCNode Title="ContainsCard Method " Url="html/683bcc39-aa29-c01a-105a-571dde699cc0.htm" />
+        <HelpTOCNode Title="GetBestHand Method " Url="html/5d593b56-9f2c-2d29-9815-d14b8e5e75d4.htm" />
+        <HelpTOCNode Title="GetSumOfHand Method " Url="html/4db52c75-5a13-d615-97df-6a7e801adfd0.htm" />
+        <HelpTOCNode Title="HasBlackJack Method " Url="html/f0447971-056d-3a6e-1104-0c06a1c4e891.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/42d12976-2c05-e3b9-6edf-d4856f20f92b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="80e8e1ad-197d-4824-bd18-ebc59d0405d7" Title="Hand Properties" Url="html/62d6f461-8e79-af3d-8249-a60ffe49edff.htm">
+        <HelpTOCNode Title="Cards Property " Url="html/af3f2857-e7fe-523e-820b-61f37b9e4ad0.htm" />
+        <HelpTOCNode Title="NumCards Property " Url="html/ceb2a7f5-f334-f9f6-ff12-fa6eeda33394.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e04db78a-23ab-4ef4-8089-c851d51fb2fa" Title="IBot Interface" Url="html/82213481-9a8e-fcef-f6bb-850474f0b473.htm">
+      <HelpTOCNode Title="IBot Members" Url="html/ee6afbbd-0902-36c6-58e7-3cf2aef56b80.htm" />
+      <HelpTOCNode Id="1f3c14f4-89eb-404f-a38f-d9fca9c945e4" Title="IBot Methods" Url="html/ae1b5773-c68a-e9ac-09ff-667d64cbc86b.htm">
+        <HelpTOCNode Title="InitializeAsync Method " Url="html/920e0ffe-99b9-18e2-a8e9-345c507ed114.htm" />
+        <HelpTOCNode Title="JoinMultiPlayerGameQueueAsync Method " Url="html/6f25522e-d232-0ce1-18c9-028fb4c901a7.htm" />
+        <HelpTOCNode Title="StartSoloGameSeriesAsync Method " Url="html/d71bf99d-88d1-2875-db5a-cde2060c580e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="876aea7d-2cd1-4d5b-b7e3-48364f7dc9cc" Title="IBot Events" Url="html/5d480e55-efc4-0d14-bc9d-478c1175b18d.htm">
+        <HelpTOCNode Title="GameStateUpdated Event" Url="html/569356cb-0ebc-2467-aa2f-175497f18eaa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0bc2f57a-f782-4c03-9adc-8b0498d35941" Title="LeaderboardEntries Class" Url="html/1c2f53a3-f254-c814-b6df-73408cd0cccb.htm">
+      <HelpTOCNode Title="LeaderboardEntries Members" Url="html/87cfe684-bab9-0afb-8866-066e337ad139.htm" />
+      <HelpTOCNode Title="LeaderboardEntries Constructor " Url="html/c7a0b803-d09d-d946-89f7-d4c57f5617e0.htm" />
+      <HelpTOCNode Title="LeaderboardEntries Methods" Url="html/b1b379b8-25d4-03dc-65e4-d50fa04602d9.htm" />
+      <HelpTOCNode Id="09fee44e-6f98-46b1-8f40-a9524451b61a" Title="LeaderboardEntries Properties" Url="html/b7212840-02a1-4c8d-8278-d73e6be2e98a.htm">
+        <HelpTOCNode Title="Balance Property " Url="html/35f709e5-1d3d-a4f3-1120-6f44f7076731.htm" />
+        <HelpTOCNode Title="BotName Property " Url="html/28049ac5-c57e-47cf-c508-a0131fb42c10.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Move Enumeration" Url="html/d1ec3059-a02b-3b43-8526-9e471ca34445.htm" />
+    <HelpTOCNode Id="df040f03-ee86-47e4-8eb2-17995d39a1e1" Title="PlayerState Class" Url="html/5edaa843-3784-2d61-9dec-8adfb6d95004.htm">
+      <HelpTOCNode Title="PlayerState Members" Url="html/b0250971-4626-b381-a3c4-25ee091558e0.htm" />
+      <HelpTOCNode Title="PlayerState Constructor " Url="html/013cecce-bad4-774f-b560-8fa095f90e25.htm" />
+      <HelpTOCNode Id="2ccaff87-daf4-43f7-862e-4471da4c9cea" Title="PlayerState Methods" Url="html/c019843d-af01-59af-9c4d-43cea8cb83be.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/f1a7a1cd-98ea-16f9-97e6-e9bebb5132e4.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/7fefb29b-3e82-5614-2ff8-dc6b7083421a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="568eb3e3-fb36-49ca-ac24-0cb5e48fad9f" Title="PlayerState Properties" Url="html/7443704f-6751-2627-5b73-cfac799480ef.htm">
+        <HelpTOCNode Title="Balance Property " Url="html/52401c2b-82ad-096e-0adc-1fbf523d232c.htm" />
+        <HelpTOCNode Title="Bet Property " Url="html/eb8e1f1b-daa3-4dd6-3c62-7047227d0ace.htm" />
+        <HelpTOCNode Title="CanDoubleDown Property " Url="html/ff3f3783-c99f-cdd9-0a6e-502dc8000a0d.htm" />
+        <HelpTOCNode Title="GameSeriesId Property " Url="html/2562da6e-9036-18dd-ff3b-3fa79760a594.htm" />
+        <HelpTOCNode Title="Hand Property " Url="html/e7bc0fc1-8f78-f941-d8e2-447cc30ca6e1.htm" />
+        <HelpTOCNode Title="IsDealer Property " Url="html/b7539828-9741-fb80-a904-8c371860628b.htm" />
+        <HelpTOCNode Title="Key Property " Url="html/8757b300-08a7-db55-4d20-37be4810f7ab.htm" />
+        <HelpTOCNode Title="Losses Property " Url="html/4c8705d2-c36d-a600-82ab-5ec218521942.htm" />
+        <HelpTOCNode Title="MoveTimeout Property " Url="html/0a1c0b38-d578-b903-bd9c-d528af2db4bd.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/d00b88f7-d163-772b-f7fa-ae4758e70d29.htm" />
+        <HelpTOCNode Title="PaidToSeeDealersCard Property " Url="html/8e633b50-72a9-8123-f8a5-d6ff190a8dc5.htm" />
+        <HelpTOCNode Title="PlayerId Property " Url="html/ef349ab5-2a9d-725d-6cff-aa9c529d35a3.htm" />
+        <HelpTOCNode Title="Pushes Property " Url="html/f941b63b-7e3e-43d1-feb0-4c2b864a48a4.htm" />
+        <HelpTOCNode Title="Result Property " Url="html/73b2cb5f-7bca-f7ac-d87b-67b1b1921b6b.htm" />
+        <HelpTOCNode Title="Timeouts Property " Url="html/1ec0d3fc-aa4a-da21-6f2b-256df4173d55.htm" />
+        <HelpTOCNode Title="TurnCompleted Property " Url="html/fe6b3f03-048c-2e92-9c1a-7be297c2202d.htm" />
+        <HelpTOCNode Title="Wins Property " Url="html/abde8b28-d0f4-6893-31a8-c0c4e8ed83aa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Suit Enumeration" Url="html/3a372c6f-664e-04fc-9805-21d2ad722e25.htm" />
+    <HelpTOCNode Id="83529b2c-c092-4926-8ded-22175d52278d" Title="TypeHelper Class" Url="html/f277a137-2321-c893-84bd-65abf21a0a86.htm">
+      <HelpTOCNode Title="TypeHelper Members" Url="html/cf4469cd-f708-e4b0-fed3-34bb81cd49b8.htm" />
+      <HelpTOCNode Id="34af76b3-3201-4b30-8f21-4573766414bf" Title="TypeHelper Methods" Url="html/dc051ed8-fb40-73eb-b7a2-8c77de8abb5f.htm">
+        <HelpTOCNode Id="d36d7355-2e28-4fc6-9392-3245626c4e4c" Title="GetTypes Method " Url="html/6f5d92f8-15b2-d66f-9d4c-be15507d1ea9.htm">
+          <HelpTOCNode Title="GetTypes(T) Method (T)" Url="html/550fbee8-e305-202c-a918-d30cda6d6789.htm" />
+          <HelpTOCNode Title="GetTypes(T) Method (T, List(String))" Url="html/2c2a7a46-2875-9e5a-5803-206994df9b91.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
