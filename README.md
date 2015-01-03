@@ -1,7 +1,7 @@
 Build-2014-Blackjack-Bot
 ========================
 
-This is the bot I used to win the Blackjack AI Bot coding competition at BUILD 2014. More information can be found at http://blackjackbot.codeplex.com/.
+This is the bot I used to win the Blackjack AI Bot coding competition at Build 2014. More information can be found at http://blackjackbot.codeplex.com/.
 
 The basic thought process I used:
 
